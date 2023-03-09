@@ -34,7 +34,8 @@ public class Driver {
 
 /*
  * To Do:
- *      *Documentation if possible
+ *      *Documentation done for Gamer, Streamer, and Casual
+ *      *go back and finish fields and overall description
  * Stretch Goals:
  *     *Class for RecordsHeld
  *          *Update Gamer with method for converting to string
