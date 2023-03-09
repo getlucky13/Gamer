@@ -34,7 +34,6 @@ public class Driver {
 
 /*
  * To Do:
- *      *UML
  *      *Documentation if possible
  * Stretch Goals:
  *     *Class for RecordsHeld
