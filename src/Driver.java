@@ -24,18 +24,43 @@ public class Driver {
         System.out.println(bob.toString());
         System.out.println();
         
+        
         ron.removeAccolade(champions2020);
         System.out.println(ron.toString());
         System.out.println();
         System.out.println(bob.toString());
         
+        Streamer drLupo = new Streamer("Ben Lupo", "Nebraska", "Escape From Tarkov", 
+        36, "None", "YouTube");
+        Casual dale = new Casual("Dale Nicklas", "Hatboro", "Overwatch 2", 
+        31, "PC");
+        SpeedRunner lilAggy = new SpeedRunner("LilAggy", "Unknown", "Elden Ring", 
+        28, "GGTalen", "PC", "Fog Gate Randomizer", "1hr15min", "None");
+    
+        ArrayList<Gamer> gamers = new ArrayList<>();
+        gamers.add(ron);
+        gamers.add(bob);
+        gamers.add(dale);
+        gamers.add(drLupo);
+        gamers.add(lilAggy);
+
+        boolean wut = drLupo instanceof Gamer;
+        if(wut == true) {
+            System.out.println(drLupo.toString());
+        }
+        for(Gamer gamer: gamers) {
+            if(gamer instanceof Streamer){
+                System.out.println(gamer.toString());
+            }
+        }
+
+
     }
 }
 
 /*
  * To Do:
- *      *Documentation done for Gamer, Streamer, and Casual
- *      *go back and finish fields and overall description
+ *      *Documentation done
  * Stretch Goals:
  *     *Class for RecordsHeld
  *          *Update Gamer with method for converting to string
