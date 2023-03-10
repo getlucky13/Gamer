@@ -1,4 +1,5 @@
 public class Streamer extends Gamer{
+    
     private String organization, platform;
 
     /**Constructor for taking values for each field of Streamer and Gamer class
@@ -61,8 +62,4 @@ public class Streamer extends Gamer{
         + " | Current Primary Game: " + this.getPrimaryGame() + " | Age: " + this.getAge() + " | Organization: " 
         + organization + " | Platform: " + platform + "]";
     }
-
-    
-
-    
 }
