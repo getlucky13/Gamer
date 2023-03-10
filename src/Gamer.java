@@ -1,5 +1,7 @@
 import java.util.ArrayList;
-
+/**
+ * Class to model a person who plays videogames
+ */
 public class Gamer {
 
     private String name, currentResidence, primaryGame;
